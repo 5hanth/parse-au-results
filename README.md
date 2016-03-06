@@ -13,7 +13,7 @@ A parser for Anna University Nov/Dec 2015 results.
 3. lein uberjar
 4. java -jar target/uberjar/parse-au-results-0.1.0-SNAPSHOT-standalone.jar \<reg-no-start\> \<reg-no-end\>
 5. *grab some red-bull*
-6. hard-code pattern for reg-no in ./parsed.sh
+6. hard-code pattern for reg-no in ./parse.sh
 7. sh ./parse.sh <SUB-CODE1> <SUB-CODE2> ... <SUB-CODEN> > parsed.csv
 8. libreoffice parsed.csv
 
