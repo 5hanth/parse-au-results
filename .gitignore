@@ -1,0 +1,8 @@
+dev-resources
+fetched-html
+*~
+target
+test
+doc
+.*
+!.gitignore
