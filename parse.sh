@@ -2,7 +2,7 @@
 pattern=211512104
 echo "REG.NO,NAME," $(echo $@ | xargs -n1 | paste -s -d',')
 for reg_no in $(ls $pattern*); do \
-  echo $( grep -A 1 "211512" $reg_no | \
+  echo $( grep -A 1 $pattern $reg_no | \
             cut -d'>' -f 4 | \
             cut -d'<' -f 1 | \
             paste -s -d"," - ) "," \
